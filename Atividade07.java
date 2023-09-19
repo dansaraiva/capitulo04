@@ -8,7 +8,9 @@ public class Atividade07 {
         System.out.print("Informe seu salário: ");
         salario = entrada.nextDouble();
 
-        if (salario <= 500.0) {
+        if(salario <= 0){
+            System.out.println("Erro!");
+        }else if (salario <= 500.0) {
             novoSalario = salario * 1.3;
             System.out.println(
                     "Seu novo salário será: " + novoSalario);
