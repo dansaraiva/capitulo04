@@ -9,7 +9,7 @@ public class Atividade08 {
         salario = entrada.nextDouble();
 
         if (salario <= 300) {
-            novoSalario = salario * 1.35;
+            novoSalario = salario * 1.35;// salario + (salario * 35/100)
         } else {
             novoSalario = salario * 1.15;
         }
